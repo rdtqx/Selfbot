@@ -34,7 +34,7 @@ async def on_ready():
 # === Static Legit Status Setter ===
 async def set_apex_status():
     try:
-        game = discord.Game(name="Apex Legends")
+        game = discord.Game(name="Roblox")
         await client.change_presence(activity=game)
         print("🎮 Status set to: Playing Apex Legends")
     except Exception as e:
