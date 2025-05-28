@@ -13,7 +13,7 @@ client = discord.Client(intents=intents)
 start_time = None
 
 # --- Game/Stream Info ---
-STREAM_GAME_NAME = "online 24/7.py"  # What you're "playing" on Twitch
+STREAM_GAME_NAME = "Roblox"  # What you're "playing" on Twitch
 STREAM_URL = "https://www.twitch.tv/rcpfc17"  # YOUR TWITCH CHANNEL URL
 GAME_IMAGE_URL = "https://cdn.discordapp.com/attachments/1342843098274861087/1377112134470598707/IMG_4919.jpg?ex=6837c71e&is=6836759e&hm=a4326291fea3ad8397e95a465796f73903515bc6a3a7efd601aaf6a3b7c97b2c&"  # Replace with your image
 
