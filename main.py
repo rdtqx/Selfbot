@@ -42,9 +42,9 @@ async def set_streaming_status():
         activity = discord.Streaming(
             name=STREAM_GAME_NAME,
             url=STREAM_URL,
-            details="online 24/7", # This appears under the stream name
+            details="24/7", # This appears under the stream name
             state="afk", # This appears as a smaller line below details
-            assets={"large_image": "img_4920", "large_text": "come join"} # Optional: requires Discord developer assets
+            assets={"large_image": "embedded_background", "large_text": "come join"} # Optional: requires Discord developer assets
         )
         await client.change_presence(activity=activity)
         print("🔴 Streaming status set!")
