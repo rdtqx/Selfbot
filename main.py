@@ -13,8 +13,8 @@ client = discord.Client(intents=intents)
 start_time = None
 
 # === Game Info ===
-GAME_NAME = "Goat Simulator"
-GAME_IMAGE_URL = "IMG_4919.jpeg"  # Replace with your image
+GAME_NAME = "Roblox.CUM"
+GAME_IMAGE_URL = ""  # Replace with your image
 
 # === Format Uptime ===
 def format_uptime():
