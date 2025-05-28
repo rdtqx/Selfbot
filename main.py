@@ -102,4 +102,4 @@ while True:
     except Exception as e:
         print(f"🔥 Crash detected: {e}")
         print("🔄 Restarting in 5 seconds...")
-        time.sleep(5) give ne the requirements.txt for this code
+        time.sleep(5)
